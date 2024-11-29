@@ -1,0 +1,72 @@
+{
+    "members": [
+        {
+            "name": "Eternal Flame",
+            "age": 1000000,
+            "secretIdentity": "Unknown",
+            "powers": [
+                "Immortality",
+                "Heat Immunity",
+                "Inferno",
+                "Teleportation",
+                "Interdimensional travel"
+            ]
+        },
+        {
+            "name": "Cybernetic Avenger",
+            "age": 40,
+            "secretIdentity": "John Smith",
+            "powers": [
+                "Cybernetic Enhancement",
+                "Super Speed",
+                "Technopathy",
+                "Energy Absorption",
+                "Advanced Combat Skills"
+            ]
+        },
+        {
+            "name": "Madame Uppercut",
+            "age": 39,
+            "secretIdentity": "Jane Wilson",
+            "powers": [
+                "Million tonne punch",
+                "Damage resistance",
+                "Superhuman reflexes"
+            ]
+        },
+        {
+            "name": "Galactic Guardian",
+            "age": 35,
+            "secretIdentity": "Dr. Alex Carter",
+            "powers": [
+                "Super Strength",
+                "Flight",
+                "Energy Projection",
+                "Telekinesis",
+                "Space Adaptation"
+            ]
+        },
+        {
+            "name": "Molecule Man",
+            "age": 30,
+            "secretIdentity": "Dan Jukes",
+            "powers": [
+                "Radiation resistance",
+                "Turning tiny",
+                "Radiation blast"
+            ]
+        },
+        {
+            "name": "Mystic Sorceress",
+            "age": 30,
+            "secretIdentity": "Lila Blackwood",
+            "powers": [
+                "Magic Manipulation",
+                "Teleportation",
+                "Elemental Control",
+                "Mind Reading",
+                "Healing"
+            ]
+        }
+    ]
+}
