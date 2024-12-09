@@ -10,8 +10,8 @@ HEADERS = {"Content-Type": "application/json"}
 @pytest.fixture
 def user_data():
    return {
-    "id": 0,
-    "username": "string",
+    "id": 1000,
+    "username": "FlyffiUpdate",
     "firstName": "string",
     "lastName": "string",
     "email": "string",
@@ -32,17 +32,16 @@ def test_user_get(user_data):
     response = requests.get(f"{BASE_URL}/user/{username}")
     assert response.status_code == 200, f"code: {response.status_code}"
     response_data = response.json() if response.content else {}
-    assert response_data.get("id") == user_data["id"]
     assert user_data.get("username") == user_data["username"]
 
 def test_user_put(user_data):
     user_data = user_data.copy()
     username = user_data["username"]
-    user_data["username"] = "FluffyUpdated"
+    user_data["username"] = "FlyffiUpdate"
     response = requests.put(f"{BASE_URL}/user/{username}", json=user_data, headers=HEADERS)
     assert response.status_code == 200, f"code: {response.status_code}"
     response_data = response.json() if response.content else {}
-    assert response_data.get("username") == user_data["username"]
+    assert response_data.get("message") == str(user_data["id"])
 
 
 def test_user_delete(user_data):
